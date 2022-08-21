@@ -1,0 +1,32 @@
+Dependencies for Project 'Project_EDF', Target 'EDF': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\Startup.s)(0x61C342C2)(--cpu ARM7TDMI -g --apcs=interwork -I ..\..\Source\portable\RVDS\ARM7_LPC21xx-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips--pd "__UVISION_VERSION SETA 536"--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\ParTest\ParTest.c)(0x61C342C2)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork -I . -I ..\..\Source\portable\RVDS\ARM7_LPC21xx -I ..\Common\include -I ..\..\Source\include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="536" -DARM7_LPC21xx_KEIL_RVDS-o .\partest.o --omf_browse .\partest.crf --depend .\partest.d)
+F (.\serial\serialISR.s)(0x61C342C2)(--cpu ARM7TDMI -g --apcs=interwork -I ..\..\Source\portable\RVDS\ARM7_LPC21xx-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips--pd "__UVISION_VERSION SETA 536"--list .\serialisr.lst --xref -o .\serialisr.o --depend .\serialisr.d)
+I (serial\portmacro.inc)(0x61C3430A)
+F (.\Starter_Files_V1\source\GPIO.c)(0x5EB07C48)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork -I . -I ..\..\Source\portable\RVDS\ARM7_LPC21xx -I ..\Common\include -I ..\..\Source\include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="536" -DARM7_LPC21xx_KEIL_RVDS-o .\gpio.o --omf_browse .\gpio.crf --depend .\gpio.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DE)
+F (.\Starter_Files_V1\source\GPIO_cfg.c)(0x62EE57CE)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork -I . -I ..\..\Source\portable\RVDS\ARM7_LPC21xx -I ..\Common\include -I ..\..\Source\include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="536" -DARM7_LPC21xx_KEIL_RVDS-o .\gpio_cfg.o --omf_browse .\gpio_cfg.crf --depend .\gpio_cfg.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DE)
+F (.\Starter_Files_V1\source\main.c)(0x62F32BB4)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork -I . -I ..\..\Source\portable\RVDS\ARM7_LPC21xx -I ..\Common\include -I ..\..\Source\include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="536" -DARM7_LPC21xx_KEIL_RVDS-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602577D4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602577D4)
+F (.\Starter_Files_V1\source\serial.c)(0x5EE21219)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork -I . -I ..\..\Source\portable\RVDS\ARM7_LPC21xx -I ..\Common\include -I ..\..\Source\include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="536" -DARM7_LPC21xx_KEIL_RVDS-o .\serial.o --omf_browse .\serial.crf --depend .\serial.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602577D4)
+F (.\Starter_Files_V1\header\portASM.s)(0x61C3430A)(--cpu ARM7TDMI -g --apcs=interwork -I ..\..\Source\portable\RVDS\ARM7_LPC21xx-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips--pd "__UVISION_VERSION SETA 536"--list .\portasm.lst --xref -o .\portasm.o --depend .\portasm.d)
+I (Starter_Files_V1\header\portmacro.inc)(0x61C3430A)
+F (.\Starter_Files_V1\header\portmacro.inc)(0x61C3430A)()
+F (.\Starter_Files_V1\source\heap_2.c)(0x61C3430A)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork -I . -I ..\..\Source\portable\RVDS\ARM7_LPC21xx -I ..\Common\include -I ..\..\Source\include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="536" -DARM7_LPC21xx_KEIL_RVDS-o .\heap_2.o --omf_browse .\heap_2.crf --depend .\heap_2.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602577D4)
+F (.\Starter_Files_V1\source\list.c)(0x61C3430A)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork -I . -I ..\..\Source\portable\RVDS\ARM7_LPC21xx -I ..\Common\include -I ..\..\Source\include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="536" -DARM7_LPC21xx_KEIL_RVDS-o .\list.o --omf_browse .\list.crf --depend .\list.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602577D4)
+F (.\Starter_Files_V1\source\port.c)(0x61C3430A)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork -I . -I ..\..\Source\portable\RVDS\ARM7_LPC21xx -I ..\Common\include -I ..\..\Source\include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="536" -DARM7_LPC21xx_KEIL_RVDS-o .\port.o --omf_browse .\port.crf --depend .\port.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602577D4)
+F (.\Starter_Files_V1\source\queue.c)(0x61C3430A)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork -I . -I ..\..\Source\portable\RVDS\ARM7_LPC21xx -I ..\Common\include -I ..\..\Source\include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="536" -DARM7_LPC21xx_KEIL_RVDS-o .\queue.o --omf_browse .\queue.crf --depend .\queue.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602577D4)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602577DE)
+F (.\Starter_Files_V1\source\serial.c)(0x5EE21219)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork -I . -I ..\..\Source\portable\RVDS\ARM7_LPC21xx -I ..\Common\include -I ..\..\Source\include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="536" -DARM7_LPC21xx_KEIL_RVDS-o .\serial_1.o --omf_browse .\serial_1.crf --depend .\serial_1.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602577D4)
+F (.\Starter_Files_V1\source\tasks.c)(0x61C3430A)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork -I . -I ..\..\Source\portable\RVDS\ARM7_LPC21xx -I ..\Common\include -I ..\..\Source\include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="536" -DARM7_LPC21xx_KEIL_RVDS-o .\tasks.o --omf_browse .\tasks.crf --depend .\tasks.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602577D4)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602577DE)

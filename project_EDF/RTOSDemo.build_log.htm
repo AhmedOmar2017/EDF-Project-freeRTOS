@@ -1,0 +1,83 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.36.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: ahmed Microsoft, Microsoft, LIC=8MZI6-D55UE-UMX9A-180UQ-4PU1W-MGZ2G
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.36.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARM.DLL V5.36.0.0
+Dialog DLL:      DARMP.DLL V1.53.0.0
+Target DLL:      UL2ARM.DLL V1.74.14.0
+Dialog DLL:      TARMP.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+D:\courses\RTOS\keil\project\Project_EDF.uvproj
+Project File Date:  08/10/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'EDF'
+Note: source file '.\Starter_Files_V1\source\serial.c' - object file renamed from '.\serial.o' to '.\serial_1.o'.
+assembling Startup.s...
+assembling serialISR.s...
+compiling ParTest.c...
+ParTest\ParTest.c(29): error:  #5: cannot open source input file "FreeRTOS.h": No such file or directory
+  #include "FreeRTOS.h"
+ParTest\ParTest.c: 0 warnings, 1 error
+compiling GPIO.c...
+Starter_Files_V1\source\GPIO.c(4): error:  #5: cannot open source input file "bit_math.h": No such file or directory
+  #include "bit_math.h"
+Starter_Files_V1\source\GPIO.c: 0 warnings, 1 error
+compiling GPIO_cfg.c...
+Starter_Files_V1\source\GPIO_cfg.c(2): error:  #5: cannot open source input file "GPIO.h": No such file or directory
+  #include "GPIO.h"
+Starter_Files_V1\source\GPIO_cfg.c: 0 warnings, 1 error
+compiling main.c...
+Starter_Files_V1\source\main.c(60): error:  #5: cannot open source input file "FreeRTOS.h": No such file or directory
+  #include "FreeRTOS.h"
+Starter_Files_V1\source\main.c: 0 warnings, 1 error
+assembling portASM.s...
+compiling heap_2.c...
+Starter_Files_V1\source\heap_2.c(45): error:  #5: cannot open source input file "FreeRTOS.h": No such file or directory
+  #include "FreeRTOS.h"
+Starter_Files_V1\source\heap_2.c: 0 warnings, 1 error
+compiling serial.c...
+Starter_Files_V1\source\serial.c(40): error:  #5: cannot open source input file "FreeRTOS.h": No such file or directory
+  #include "FreeRTOS.h"
+Starter_Files_V1\source\serial.c: 0 warnings, 1 error
+compiling list.c...
+Starter_Files_V1\source\list.c(37): error:  #5: cannot open source input file "FreeRTOS.h": No such file or directory
+  #include "FreeRTOS.h"
+Starter_Files_V1\source\list.c: 0 warnings, 1 error
+compiling port.c...
+Starter_Files_V1\source\port.c(34): error:  #5: cannot open source input file "FreeRTOS.h": No such file or directory
+  #include "FreeRTOS.h"
+Starter_Files_V1\source\port.c: 0 warnings, 1 error
+compiling queue.c...
+Starter_Files_V1\source\queue.c(37): error:  #5: cannot open source input file "FreeRTOS.h": No such file or directory
+  #include "FreeRTOS.h"
+Starter_Files_V1\source\queue.c: 0 warnings, 1 error
+compiling serial.c...
+Starter_Files_V1\source\serial.c(40): error:  #5: cannot open source input file "FreeRTOS.h": No such file or directory
+  #include "FreeRTOS.h"
+Starter_Files_V1\source\serial.c: 0 warnings, 1 error
+compiling tasks.c...
+Starter_Files_V1\source\tasks.c(39): error:  #5: cannot open source input file "FreeRTOS.h": No such file or directory
+  #include "FreeRTOS.h"
+Starter_Files_V1\source\tasks.c: 0 warnings, 1 error
+".\RTOSDemo.axf" - 11 Error(s), 0 Warning(s).
+Target not created.
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

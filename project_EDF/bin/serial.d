@@ -1,0 +1,17 @@
+.\bin\serial.o: Starter_Files_V1\source\serial.c
+.\bin\serial.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\bin\serial.o: .\Starter_Files_V1\header\FreeRTOS.h
+.\bin\serial.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\bin\serial.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\bin\serial.o: .\Starter_Files_V1\header\FreeRTOSConfig.h
+.\bin\serial.o: C:\Keil_v5\ARM\INC\Philips\lpc21xx.h
+.\bin\serial.o: .\Starter_Files_V1\header\GPIO.h
+.\bin\serial.o: .\Starter_Files_V1\header\projdefs.h
+.\bin\serial.o: .\Starter_Files_V1\header\portable.h
+.\bin\serial.o: .\Starter_Files_V1\header\deprecated_definitions.h
+.\bin\serial.o: .\Starter_Files_V1\header\portmacro.h
+.\bin\serial.o: .\Starter_Files_V1\header\mpu_wrappers.h
+.\bin\serial.o: .\Starter_Files_V1\header\queue.h
+.\bin\serial.o: .\Starter_Files_V1\header\task.h
+.\bin\serial.o: .\Starter_Files_V1\header\list.h
+.\bin\serial.o: .\Starter_Files_V1\header\serial.h

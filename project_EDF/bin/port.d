@@ -1,0 +1,15 @@
+.\bin\port.o: Starter_Files_V1\source\port.c
+.\bin\port.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\bin\port.o: .\Starter_Files_V1\header\FreeRTOS.h
+.\bin\port.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\bin\port.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\bin\port.o: .\Starter_Files_V1\header\FreeRTOSConfig.h
+.\bin\port.o: C:\Keil_v5\ARM\INC\Philips\lpc21xx.h
+.\bin\port.o: .\Starter_Files_V1\header\GPIO.h
+.\bin\port.o: .\Starter_Files_V1\header\projdefs.h
+.\bin\port.o: .\Starter_Files_V1\header\portable.h
+.\bin\port.o: .\Starter_Files_V1\header\deprecated_definitions.h
+.\bin\port.o: .\Starter_Files_V1\header\portmacro.h
+.\bin\port.o: .\Starter_Files_V1\header\mpu_wrappers.h
+.\bin\port.o: .\Starter_Files_V1\header\task.h
+.\bin\port.o: .\Starter_Files_V1\header\list.h
